@@ -1,0 +1,22 @@
+.autocomplete{
+    width: 210px;
+    height: 60px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.picker{
+    width: 200px;
+}
+.span{
+    position: relative;
+    top: 14px;
+}
+.btn{
+    position: relative;
+    top: 10px;
+    background-color: orangered;
+}
