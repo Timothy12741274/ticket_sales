@@ -3,10 +3,13 @@
     height: 60px;
 }
 .wrapper{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 30vh;
+    background-color: #0c73fe;
 }
 .picker{
     width: 200px;
@@ -17,6 +20,272 @@
 }
 .btn{
     position: relative;
-    top: 10px;
-    background-color: orangered;
+    top: 14px;
+    /*background-color: orangered;
+    color: white;*/
+    height: 55px;
+}
+.btn:hover{
+   /* background-color: #cb3600;
+    color: #dcdce3;*/
+}
+.catalog{
+    padding-top: 3vh;
+    padding-left: 10vw;
+    gap: 2vw;
+    top: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    gap: 20px;
+    background-color: transparent;
+}
+.main{
+    width: 47vw;
+}
+.adjoin_dates{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 9vh;
+    width: 100%;
+}
+.track_price{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c73fe;
+    transition: 0.15s;
+}
+.track_price:hover{
+    background-color: #0c73fe;
+    color: white;
+}
+.all_options{
+    height: 150vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.easyFlightItem{
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 34vh;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.easyFlightItem:hover{
+    box-shadow: 0 2px 6px rgba(63,99,128,0.15);
+}
+.eFlItFirstPart{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.eFlItSecondPart{
+
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.efAirlineAndBtns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.illustration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.efDepartInfo, .efArriveInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.trace{
+    background-color: #eff1f4;
+    width: 2px;
+}
+.airline{
+}
+.time{
+    font-size: 25px;
+}
+.dop_date_info{
+    color: gray;
+    font-size: 12px;
+}
+.aLbl{
+    width: 33px;
+    border-radius: 50%;
+}
+.airlineRow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.flight_seg{
+    height: 4px;
+    border-radius: 3px;
+    background-color: gray;
+}
+.tranfer_seg{
+    height: 2px;
+    background-color: #eff1f4;
+}
+.tranfer_seg, .flight_seg{
+    position: relative;
+}
+.flightIllLine{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: -5px;
+}
+
+.firstItClName, .lastItClName{
+    position: absolute;
+    top: -15px;
+    /*top: -20%;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.a{
+    position: relative;
+}
+.iconClName{
+    color: gray;
+}
+.flight_icon1{
+    position: absolute;
+    left: -2px;
+    top: -33px;
+}
+.flight_icon1:hover, .flight_icon2:hover{
+    color: #ff6f32;
+}
+.flight_icon2{
+    position: absolute;
+    right: -2px;
+    top: -33px;
+}
+.commonTimeFlightInfo{
+    position: absolute;
+    right: 50%;
+    top: -33px;
+    color: gray;
+}
+.showTime:hover{
+    position: absolute;
+    background-color: #282c34;
+    z-index: 1;
+    border-radius: 3px;
+}
+.location_inscription{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    font-size: 11px;
+    color: #0c73fe;
+}
+.first_insc{
+    position: absolute;
+    left: 0;
+}
+.last_insc{
+    position: absolute;
+    right: 0;
+}
+.lineWrapper{
+    position: relative;
+    top: 50px;
+}
+.price{
+    font-size: 25px;
+}
+.ticketBtn{
+    width: 170px;
+    height: 45px;
+    color: #eff1f4;
+    background-color: #ff6f32;
+    border-radius: 9px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.ticketBtn:hover{
+    background-color: #e5612a;
+    color: #d0d1d5;
+}
+.ticketBtn:active{
+    background-color: #d95b27;
+    color: #c1c1c7;
+}
+
+.lbl_wrapper{
+    position: relative;
+}
+
+.cheapest_lbl{
+    position: absolute;
+    border-radius: 12px;
+    color: #eff1f4;
+    background-color: #35c768;
+    padding: 0px 7px 5px 5px;
+    font-size: 14px;
+    left: 12px;
+    top: -12px;
+}
+.fastest_lbl{
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 12px;
+    color: #eff1f4;
+    background-color: #b983f1;
+}
+.transfer_opt{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.transfer_options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.transfers_inscription{
+    justify-content: left;
+}
+.transfer_opt_fl_count{
+    color: #eff1f4;
+    font-size: 20px;
+}
+.ind{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 12px;
 }
