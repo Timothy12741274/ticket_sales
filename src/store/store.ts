@@ -1,9 +1,11 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import flightReducer from "./reducer/flight-reducer";
+import airportReducer from "./reducer/airport-reducer";
 
 
 const rootReducer = combineReducers({
-    flightReducer
+    flightReducer,
+    airportReducer
 })
 export const setupStore = () => {
   return configureStore({

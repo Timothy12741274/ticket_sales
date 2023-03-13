@@ -76,9 +76,10 @@ function valuetext(value: number) {
 type PropsType = {
     //maxV: number
     h3:(e:any, nv:any)=>void
+    marks: Array<any>
 }
 
-const SliderM = ({h3}:PropsType) => {
+const SliderM = ({h3, marks}:PropsType) => {
     return (
         <Slider
             onChangeCommitted={h3}

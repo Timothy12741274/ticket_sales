@@ -1,0 +1,70 @@
+.open_btn{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.mdl {
+    /*background-color: #d6d6dc;*/
+}
+.wrap_mdl {
+    width: 100%;
+}
+.path_info_block {
+    border-radius: 12px;
+    background-color: white;
+    width: 40%;
+}
+.fl_info{
+    display: flex;
+    flex-direction: row;
+}
+.col_1, .col_2 {
+    display: flex;
+    flex-direction: column;
+}
+.block_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.circle_1, circle_2 {
+    border: 5px solid #828285;
+    background-color: white;
+    border-radius: 50%;
+}
+.line {
+    width: 2px;
+    height: 80px;
+    background-color: #eff1f4;
+}
+.path_ill {
+    display: flex;
+    flex-direction: column;
+}
+.tr {
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #d6d6dc;
+}
+.tr_drn {
+    color: #a6a6a9;
+}
+.tr_in {
+    color: #282c34;
+}

@@ -289,3 +289,33 @@
     padding-left: 20px;
     padding-top: 12px;
 }
+.comfort_opt_row{
+    position: relative;
+}
+.comfort_opt_checkbox{
+    top: -6px;
+    right: 10px;
+    position: absolute;
+}
+.badges_row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.act_and_time_range_row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.arl_date_fl_opt_row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.dpt_time_ops_ins{
+    position: relative;
+    right: 40px;
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: 15px;
+}
